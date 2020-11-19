@@ -2,14 +2,24 @@ import click
 
 
 @click.command()
-@click.option('--name',  help='Name of the repo you want to create:')
-def start_process(name):
+@click.option('--name',  help='Name of the repo you want to create')
+@click.option('--mode', default=0,  help='0 = Select Later, 1 = GitHub, 2 = BitBucket')
+def start_process(name, mode):
     """Program that creates a repo on your favorite git version control system."""
 
     if name:
         name = name.lower()
         name = name.replace(' ', '-')
-        click.echo("You chose to create a repo named: " + name)
+        if mode == 1:
+            click.echo("Create repo: " + name + " on GitHub")
+            # Code for github repo creation goes here
+        elif mode == 2:
+            click.echo("Create repo: " + name + " on BitBucket")
+            # Code for bitbucker repo creation goes here
+        else:
+            click.echo(
+                "Please enter a valid mode. 1 = GitHub, 2 = BitBucker. Refer to --help for more information.")
+
     else:
         click.echo(
             'Please use the --name parameter to enter a name for your repo. E.g --name="my-repo"')
