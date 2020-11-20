@@ -1,5 +1,7 @@
 import click
 
+from bitbucket import *
+
 
 @click.command()
 @click.option('--name',  help='Name of the repo you want to create')
@@ -15,6 +17,7 @@ def start_process(name, mode):
             # Code for github repo creation goes here
         elif mode == 2:
             click.echo("Create repo: " + name + " on BitBucket")
+            test()
             # Code for bitbucker repo creation goes here
         else:
             click.echo(
