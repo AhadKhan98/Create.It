@@ -30,6 +30,7 @@ Currently Create.It only supports Bitbucket and Github but we hope to add more v
 2. Run the following command to clone the repo: ```git clone https://github.com/AhadKhan98/Create.It.git```
 
 #### Running The Script
+1. Run ```pip install -r requirements.txt``` to install all of the dependencies
 1. Browse to the ```scripts``` folder
 2. Open a terminal window and run the following command ```python main.py --name="YOUR REPO NAME" --mode=X``` Replace 'X' with either 1 or 2. 1=Github | 2=Bitbucket 
 3. You will be asked to authenticate your Github/Bitbucket account.
