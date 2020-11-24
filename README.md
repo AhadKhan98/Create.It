@@ -16,10 +16,14 @@
 ## Getting Started
 
 ## Contributing
+We would absolutely love for you to help us in making Create.It better by contributing to our project. Head to the Contributors page to get started right away!
 
 ## Code of Conduct
+We promote an open and a welcoming environment in this community. We pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+Learn more about our [Code of Conduct](https://github.com/AhadKhan98/Create.It/blob/master/CODE-OF-CONDUCT.md).
 
 ## Video Demo
+Watch our demo on [YouTube](https://google.com/)
 
 ## License
 [MIT @ MLH Fellowship 2020](https://github.com/AhadKhan98/Create.It/blob/master/LICENSE)
