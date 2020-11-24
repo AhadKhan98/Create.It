@@ -13,7 +13,6 @@ def ask_user_input(username='', password=''):
 
 def authenticate_user(username, password):
     client = Bitbucket(username, password)
-    print(client.get_privileges()[0])
     return client
 
 
