@@ -12,6 +12,16 @@
 <hr>
 
 ## How it Works
+Create.It is a CLI made completely using Python. We use a library called click to set up the CLI and make things more clean. Create.It has two required arguments that need to be passed in ```--name``` and ```--mode```.
+<br />
+The name argument refers to the name of the repository that you wish to create. 
+<br />
+The mode argument allows you to select either 1 for GitHub or 2 for Bitbucket. 
+<br />
+<br />
+After this step, the robots work in the background to connect to GitHub or Bitbuckets' API and try to authenticate your credentials. Once this is done, all you have to do is check out your newly created repository!
+
+Currently Create.It only supports Bitbucket and Github but we hope to add more version control systems in the future.
 
 ## Getting Started
 
