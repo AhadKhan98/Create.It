@@ -21,7 +21,7 @@ def start_process(name, mode):
             # Code for bitbucker repo creation goes here
         else:
             click.echo(
-                "Please enter a valid mode. 1 = GitHub, 2 = BitBucker. Refer to --help for more information.")
+                "Please enter a valid mode. 1 = GitHub, 2 = BitBucket. Refer to --help for more information.")
 
     else:
         click.echo(
