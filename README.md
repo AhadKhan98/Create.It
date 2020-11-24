@@ -24,4 +24,4 @@
 ## License
 [MIT @ MLH Fellowship 2020](https://github.com/AhadKhan98/Create.It/blob/master/LICENSE)
 
-Made with ❤ by [Ahad Zai](https://github.com/ahadkhan98) and [Mondale Felix](https://github.com/sksuryan) during MLH Fellowship Explorer Sprint 4 (Fall 2020)
+Made with ❤ by [Ahad Zai](https://github.com/ahadkhan98) and [Mondale Felix](https://github.com/MondaleFelix) during MLH Fellowship Explorer Sprint 4 (Fall 2020)
