@@ -25,6 +25,21 @@ Currently Create.It only supports Bitbucket and Github but we hope to add more v
 
 ## Getting Started
 
+#### Cloning The Repo
+1. Make sure you have git installed on your computer.
+2. Run the following command to clone the repo: ```git clone https://github.com/AhadKhan98/Create.It.git```
+
+#### Running The Script
+1. Browse to the ```scripts``` folder
+2. Open a terminal window and run the following command ```python main.py --name="YOUR REPO NAME" --mode=X``` Replace 'X' with either 1 or 2. 1=Github | 2=Bitbucket 
+3. You will be asked to authenticate your Github/Bitbucket account.
+4. Check out your newly created repo!
+
+
+*For example, if I wanted to create a repo named my-repo on Bitbucket, I would run the following command:* 
+<br />
+```python main.py --name="my-repo" --mode=2```
+
 ## Contributing
 We would absolutely love for you to help us in making Create.It better by contributing to our project. Head to the Contributors page to get started right away!
 
